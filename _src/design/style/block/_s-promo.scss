@@ -1,0 +1,32 @@
+.s-promo {
+  padding: 46px 0;
+
+  @media (max-width: $md) {
+    padding: 35px 0 0;
+  }
+}
+
+.s-promo__title {
+  margin-bottom: 34px;
+  text-align: center;
+
+  @media (max-width: $sm) {
+    text-align: left;
+  }
+
+  @media (max-width: 451px) {
+    max-width: 290px;
+  }
+}
+
+.s-promo__search-form {
+  max-width: 823px;
+  margin: 0 auto 37px;
+}
+
+.s-promo__img {
+  margin: 0 auto;
+}
+
+
+

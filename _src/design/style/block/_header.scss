@@ -1,0 +1,28 @@
+.header {
+  height: 90px;
+  background-color: #F9F9F9;
+
+  @media (max-width: $md) {
+    height: 71px;
+  }
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header__logo {
+  margin-right: auto;
+  flex-shrink: 0;
+}
+
+.header__search-form {
+  margin-left: 70px;
+  max-width: 823px;
+
+  @media (max-width: $xs) {
+    margin-left: 30px;
+  }
+}

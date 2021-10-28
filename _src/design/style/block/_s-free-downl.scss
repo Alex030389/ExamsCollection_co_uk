@@ -1,0 +1,50 @@
+.s-free-downl {
+  padding: 80px 0;
+
+  @media (max-width: $md) {
+    padding: 48px 0;
+  }
+}
+
+.s-free-downl__row {
+  display: flex;
+  margin: 0 -10px -40px;
+
+  @media (max-width: $xl) {
+    flex-direction: column;
+  }
+}
+
+.s-free-download__col {
+  margin: 0 10px 40px;
+  width: calc(50% - 20px);
+
+  @media (max-width: $xl) {
+    width: calc(100% - 20px);
+  }
+}
+
+.s-free-downl__title {
+  margin-bottom: 21px;
+
+  @media (max-width: $md) {
+    font-size: 30px;
+  }
+}
+
+.s-free-down__subtitle {
+  margin-bottom: 36px;
+  font-weight: 500;
+  font-size: 20px;
+  @media (max-width: $md) {
+    margin-bottom: 20px;
+  }
+
+  .s-free-down__table + & {
+    padding-top: 60px;
+
+    @media (max-width: $md) {
+      padding-top: 30px;
+    }
+  }
+}

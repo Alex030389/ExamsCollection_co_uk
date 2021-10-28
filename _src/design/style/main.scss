@@ -1,0 +1,55 @@
+// ///////////////////////////////////////// base
+@import "base/font";
+@import "base/var";
+@import "base/global";
+@import "base/util";
+
+// ///////////////////////////////////////// block
+// title
+@import "block/title/title";
+@import "block/title/title-2";
+@import "block/title/title-3";
+
+// btn
+@import "block/btn/btn-reset";
+@import "block/btn/btn";
+
+// link
+@import "block/link/link-stretched";
+@import "block/link/link";
+@import "block/link/link-2";
+@import "block/link/link-3";
+@import "block/link/link-4";
+
+// list
+@import "block/list/list-reset";
+@import "block/list/list";
+
+// table
+@import "block/table/table";
+
+// slider
+@import "block/slider/slider-btn";
+@import "block/slider/slider-pagination";
+
+// ather
+@import "block/container";
+@import "block/txt";
+@import "block/header";
+@import "block/logo";
+@import "block/s-promo";
+@import "block/search-form";
+@import "block/s-we-offer";
+@import "block/s-hot-provider";
+@import "block/hot-provider";
+@import "block/provider-card";
+@import "block/s-cert-provider";
+@import "block/cert-provider";
+@import "block/s-provider";
+@import "block/s-vse";
+@import "block/s-top-cert";
+@import "block/s-free-downl";
+@import "block/s-review";
+@import "block/review";
+@import "block/footer";
+@import "block/up";
