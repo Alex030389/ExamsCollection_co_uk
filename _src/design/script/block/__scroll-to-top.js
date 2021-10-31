@@ -11,6 +11,7 @@
       }
     };
 
+
     up.addEventListener('click', () => {
       window.scroll({
         top: 0,
